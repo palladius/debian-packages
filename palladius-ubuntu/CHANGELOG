@@ -1,7 +1,10 @@
 == CHANGELOG ==
 
+0.9.4
+- Added `vcsh` as suggested by Thomas Koch (great way to have all your git repos together)
+
 0.9.2
-- Added myrepos as suggested by Thomas Koch (great way to have all your git repos together)
+- Added `myrepos` as suggested by Thomas Koch (great way to have all your git repos together)
 - Added this CHANGELOG
 
 0.9.1
