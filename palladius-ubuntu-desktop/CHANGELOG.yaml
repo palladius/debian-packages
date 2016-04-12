@@ -1,0 +1,9 @@
+#Changelog is in YAML format as Riccardo requires.
+Changelog:
+ '1.0.1':
+ - Added Ruby
+
+ '1.0.0':
+ - First stesure
+ - Added GoogleCL although broken
+ - Added drivers to see strange FAT in SD cards like my GoPRO's.

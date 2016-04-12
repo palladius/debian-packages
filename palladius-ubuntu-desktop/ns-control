@@ -7,16 +7,16 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: palladius-ubuntu-desktop
-Version: 1.0.0
+Version: 1.0.1
 Maintainer: Riccardo Carlesso <rusko@palladius.it>
-Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl
+Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl, ruby
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
 # Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
-# Changelog: <changelog file; defaults to a generic changelog>
+Changelog: CHANGELOG.riccardo
 # Readme: <README.Debian file; defaults to a generic one>
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
