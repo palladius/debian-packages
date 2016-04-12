@@ -16,7 +16,8 @@ Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl, ruby
 # Replaces: <comma-separated list of packages>
 # Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
-Changelog: CHANGELOG.riccardo
+# Changelog: CHANGELOG
+# Changelog: CHANGELOG NON FUNZIONA!!
 # Readme: <README.Debian file; defaults to a generic one>
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
