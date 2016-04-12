@@ -1,0 +1,8 @@
+# palladius-ubuntu-desktop.list v.1.0.2 (credo)
+
+### Haguichi (insecure)
+# deb http://ppa.launchpad.net/webupd8team/haguichi/ubuntu precise main
+# deb-src http://ppa.launchpad.net/webupd8team/haguichi/ubuntu precise main
+
+### Dropbox
+deb http://linux.dropbox.com/ubuntu precise main

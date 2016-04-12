@@ -1,0 +1,13 @@
+# palladius-ubuntu-desktop-all.list
+
+# ALL DISTROS:
+
+# Google Music Manager
+deb http://dl.google.com/linux/musicmanager/deb/ stable main
+
+### Dropbox
+deb http://linux.dropbox.com/ubuntu stable main
+#deb http://linux.dropbox.com/ubuntu natty main
+#deb http://linux.dropbox.com/ubuntu precise main
+# $ sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+# DEBIAN: deb http://linux.dropbox.com/debian squeeze main

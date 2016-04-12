@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: palladius-ubuntu-desktop
-Version: 1.0.1
+Version: 1.0.2
 Maintainer: Riccardo Carlesso <rusko@palladius.it>
 Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl, ruby
 # Recommends: <comma-separated list of packages>
@@ -22,6 +22,9 @@ Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl, ruby
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
+Files: files/root/palladius-ubuntu-desktop.touch /root/palladius-ubuntu-desktop.touch,
+  files/etc/apt/sources.list.d/palladius-ubuntu-desktop-precise.list /etc/apt/sources.list.d/palladius-ubuntu-desktop-precise.list,
+  files/etc/apt/sources.list.d/palladius-ubuntu-desktop-all.list /etc/apt/sources.list.d/palladius-ubuntu-desktop-all.list,
 Description: Palladius Ubuntu packages for Desktop - mecojjoni!
  Questo pacchetto installa per cominciare 'palladius-ubuntu' che contiene i pacchetti
  da Ubuntu Server. Poi installa pacchetti per Desktop, tipo roba che uso sempre (Dropbox, Google stuff, ..)

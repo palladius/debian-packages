@@ -1,5 +1,9 @@
 #Changelog is in YAML format as Riccardo requires.
 Changelog in YAML form:
+ '1.0.2':
+ - Added /root/package.touch file :)
+ - Added /etc/apt/srouces.list.d/palladius-ubuntu-desktop-all.list
+
  '1.0.1':
  - Added Ruby
 
