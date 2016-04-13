@@ -13,3 +13,6 @@ install:
 
 clean:
 	rm palladius-ubuntu-desktop_*.deb
+
+test:
+	echo TODO
