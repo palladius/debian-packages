@@ -1,5 +1,8 @@
 #Changelog is in YAML format as Riccardo requires.
 Changelog in YAML form:
+ '1.0.4':
+  - Added 'ubuntu-restricted-extras' for audio
+
  '1.0.3':
  - Added 'audacity' to record audio and other audio tools
  - Added homepage

@@ -7,9 +7,9 @@ Homepage: https://github.com/palladius/debian-packages
 Standards-Version: 3.9.2
 
 Package: palladius-ubuntu-desktop
-Version: 1.0.3
+Version: 1.0.4
 Maintainer: Riccardo Carlesso <rusko@palladius.it>
-Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl, ruby, audacity, libav-tools
+Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl, ruby, audacity, libav-tools, ubuntu-restricted-extras
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
