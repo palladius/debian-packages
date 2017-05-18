@@ -1,15 +1,17 @@
-This contains ubuntiu-riccardo plus desktop stuff like:
+Synopsis
+========
 
-- sublime
-- dropbox
- 
+Package for Riccardo software on Ubuntu
 
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt-get update
-sudo apt-get install sublime-text
+Install
+=======
 
-sudo add-apt-repository ppa:webupd8team/sublime-text-3
-sudo apt-get update
-sudo apt-get install sublime-text-installer
+    make install
 
-https://secure.logmein.com/labs/logmein-hamachi_2.1.0.139-1_amd64.deb
+Tweak
+=====
+
+    * Edit ns-control
+    * Make sure to change version
+    * make build
+    * try to install (might conflict - try make uninstall first maybe?)

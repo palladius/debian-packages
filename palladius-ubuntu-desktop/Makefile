@@ -3,16 +3,20 @@ build:
 	@echo "RET=$? Build successful!"
 
 init:
-	if [ ! -f ns-control ] ; then equivs-control ns-control ; fi
+	sudo apt-get install equivs && touch equivs.installed
+	if [ ! -f ns-control ] ; then equivs ns-control ; fi
 
 build-source:
 	equivs-build --full ns-control
 
-install:
-	sudo dpkg -i *.deb
+install-latest:
+	./install-latest.sh
+
+uninstall:
+	sudo apt-get remove palladius-ubuntu-desktop --yes
 
 clean:
 	rm palladius-ubuntu-desktop_*.deb
 
 test:
-	echo TODO
+	@echo TODO

@@ -7,9 +7,9 @@ Homepage: https://github.com/palladius/debian-packages
 Standards-Version: 3.9.2
 
 Package: palladius-ubuntu-desktop
-Version: 1.0.4
+Version: 1.0.6
 Maintainer: Riccardo Carlesso <rusko@palladius.it>
-Depends: exfat-fuse, exfat-utils, google-musicmanager-beta, googlecl, ruby, audacity, libav-tools, ubuntu-restricted-extras
+Provides: exfat-fuse, exfat-utils, googlecl, ruby, audacity, libav-tools, ubuntu-restricted-extras, exfat-fuse, exfat-utils, nmap, sqlite3
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
@@ -29,4 +29,5 @@ Description: Palladius Ubuntu packages for Desktop - mecojjoni!
  Questo pacchetto installa per cominciare 'palladius-ubuntu' che contiene i pacchetti
  da Ubuntu Server. Poi installa pacchetti per Desktop, tipo roba che uso sempre (Dropbox, Google stuff, ..)
  .
- Ad esempio, google-musicmanager-beta e driver per MP3 e schede USB..
+ Ad esempio, driver per MP3 e schede USB..
+ Inoltre aggiunge driver per schedine SD con FAT strana, nmap, e sqlite3 che e' leggero e utillimo.

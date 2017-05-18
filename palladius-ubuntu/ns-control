@@ -7,13 +7,13 @@ Homepage: http://www.palladius.eu/debian-packages/
 Standards-Version: 3.9.2
 
 Package: palladius-ubuntu
-Version: 0.9.4
+Version: 0.9.5
 Maintainer: Riccardo Carlesso <rusko@palladius.it>
 # Pre-Depends: <comma-separated list of packages>
-Depends: git, etckeeper, vim, myrepos, vcsh
+#Depends: git, etckeeper, vim, myrepos
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
-# Provides: <comma-separated list of packages>
+Provides: vcsh, python-setuptools, myrepos, vim, git, etckeeper
 # Replaces: <comma-separated list of packages>
 # Architecture: all
 # Copyright: <copyright file; defaults to GPL2>

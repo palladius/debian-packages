@@ -1,5 +1,12 @@
+debian (1.0.5) unstable,stable; urgency=low
+
+  * Added stuff for reading GoPro SDs.
+  * Removed google-musicmanager-beta (doesnt exist anymore)
+
+-- Riccardo Carlesso <palladiusbonton@gmail.com>  Tue, 12 Apr 2016 07:45:00 +0100
 debian (1.0.1) unstable,stable; urgency=low
 
   * Added Ruby and Added this CHANGELOG
 
 -- Riccardo Carlesso <palladiusbonton@gmail.com>  Tue, 12 Apr 2016 07:45:00 +0100
+
